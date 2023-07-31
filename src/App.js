@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import TextInputForm from "./components/TextInputForm";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <h1 className="text-purple-600 text-center text-lg font-mono font-bold span-x-6 py-3 bg-slate-300 mar" >Fetch and Display Numbers from Multiple URLs</h1>
+      <TextInputForm />
     </div>
   );
-}
+};
 
 export default App;
